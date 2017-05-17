@@ -263,6 +263,9 @@ private void FillTopSelling(){
     private void btnNewOrderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewOrderActionPerformed
         // print 
         
+dlgPrint printdlg = new dlgPrint(this,true,this.ice.order);
+        
+        printdlg.setVisible(true);
     }//GEN-LAST:event_btnNewOrderActionPerformed
 
     private void txtSubTotalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSubTotalActionPerformed
